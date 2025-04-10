@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seznamy a tabulky</title>
+    <link rel="stylesheet" href="styly.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Seznamy a tabulky</h1>
+        <section>
+            <h2>Tvorba seznamů</h2>
+            <h3>Uspořádaný seznam (Ordered List)</h3>
+            <ol>
+                <li>Google Chrome</li>
+                <li>Internet Explorer</li>
+                <li>Mozilla Firefox</li>
+            </ol>
+
+            <h3>Neuspořádaný seznam (Unordered List)</h3>
+            <ul>
+                <li>IP adresy (např. IPv4: 192.168.23.1, IPv6)</li>
+                <li>DNS adresy (např. stroika.opava.cz)</li>
+                <li>URL adresy (např. http://moodle.sspu-opava.cz:81/course/view.php?id=95)</li>
+            </ul>
+
+            <h3>Vnořený seznam</h3>
+            <ul>
+                <li>Hardware
+                    <ol>
+                        <li>Základní jednotka
+                            <ul>
+                                <li>procesor (<a href="#">CPU</a>)</li>
+                                <li>paměť (<a href="#">RAM</a>)</li>
+                                <li>pevný disk (<a href="#">HDD</a>)</li>
+                            </ul>
+                        </li>
+                        <li>Vstupní zařízení
+                            <ul>
+                                <li>klávesnice</li>
+                                <li>myš</li>
+                            </ul>
+                        </li>
+                        <li>Výstupní zařízení
+                            <ul>
+                                <li>monitor</li>
+                                <li>tiskárna</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+                <li>Software
+                    <ol>
+                        <li>Základní programové vybavení
+                            <ul>
+                                <li>operační systém</li>
+                                <li>ovladač</li>
+                                <li>firmware</li>
+                            </ul>
+                        </li>
+                        <li>Aplikace
+                            <ul>
+                                <li>textový editor</li>
+                                <li>prohlížeč</li>
+                                <li>antivirový program</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+
+            <h3>Popisný seznam (Description List)</h3>
+            <dl>
+                <dt><strong>Internet Society (ISOC)</strong></dt>
+                <dd>Mezinárodní organizace pro globální koordinaci a kooperaci v rámci internetu.</dd>
+
+                <dt><strong>World Wide Web Consortium (W3C)</strong></dt>
+                <dd>Mezinárodní konsorcium, jehož členové společně s veřejností vyvíjejí webové standardy pro službu WWW.</dd>
+
+                <dt><strong>Internet Assigned Numbers Authority (IANA)</strong></dt>
+                <dd>Organizace, která řídí celosvětové přidělování IP adres a správu DNS.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Tvorba tabulek</h2>
+            <table>
+                <caption>Studijní obory na ŠSPU Opava - školní rok 2016/17</caption>
+                <thead>
+                    <tr>
+                        <th>Název oboru</th>
+                        <th>Kód oboru</th>
+                        <th>Počet tříd</th>
+                        <th>Počty žáků</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Informační technologie</td>
+                        <td>18-20-M/01</td>
+                        <td>4</td>
+                        <td>105</td>
+                    </tr>
+                    <tr>
+                        <td>Strojírenství</td>
+                        <td>23-41-M/01</td>
+                        <td>5</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>Umělecké obory</td>
+                        <td>82-41-M/04, 82-41-M/05, 82-41-M/08</td>
+                        <td>2</td>
+                        <td>74</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><strong>Celkové údaje</strong></td>
+                        <td><strong>13 tříd</strong></td>
+                        <td><strong>335 žáků</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
